@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: fit-content;
+    padding: 20px;
+    background-color: white;
+}
+
+#messageBox{
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
+    border: none;
+    border: dotted black 1px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px !important;
+}
+
+#messageBox :focus{
+    border: none;
+}
+
+.error{
+    color: red;
+    display: none;
+}
